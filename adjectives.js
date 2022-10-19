@@ -918,7 +918,8 @@ function getRandomSubarray(arr, size) {
 
 function random_adjectives() {
 	var adjective_list = adjectives.split("\n");
-	var adjective = getRandomSubarray(adjective_list, 6);
+	var adjectives = getRandomSubarray(adjective_list, 6);
+	return adjectives;
 }
 
 function generate() {
