@@ -922,7 +922,7 @@ function random_adjectives() {
 }
 
 function generate() {
-	document.getElementById('adjectives').innerHTML = random_adjectives().join('<br>')
+	document.getElementById('adjectives').innerHTML = "<li>"+random_adjectives().join('</li><li>')+"</li>"
 }
 
 generate()
