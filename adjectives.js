@@ -1,5 +1,4 @@
-var adjectives = `
-aback
+var adjectives = `aback
 abaft
 abandoned
 abashed
@@ -918,8 +917,8 @@ function getRandomSubarray(arr, size) {
 
 function random_adjectives() {
 	var adjective_list = adjectives.split("\n");
-	var adjectives = getRandomSubarray(adjective_list, 6);
-	return adjectives;
+	var sub_adjective_list = getRandomSubarray(adjective_list, 6);
+	return sub_adjective_list;
 }
 
 function generate() {
